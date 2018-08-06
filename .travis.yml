@@ -1,10 +1,10 @@
 sudo: required
-
 services:
-  - docker
-
+- docker
 before_install:
 - docker build -t rustbook:latest --build-arg DROPBOX_API_KEY=[DROPBOX_API_KEY] .
-
 script:
 - echo "Success"
+env:
+  global:
+    secure: Fl+kj3gMhsmSlfgyOIvwWCXTeXG8UFr0J0ht9q8MpLJsMxNgn0DS9n4O3c0qcBubkJwfZl7G5fcVhT72r7AV0KVkBHbsyzjf3IjttrGs+OBn8VV//modpuP+8yWESecTEPk2DRSnVelOgnmA/Hs++dsrBp1KNBKUCfD+4hBSeBVWdaV2rpkSMnP7VMIgBCV2j0d2uqCscFgL7T3IvyBI17GxUiAS2BdANiYqIHZ0kiauEQC8f0lhWE59rjrJfLjYHgYy2ewOO0NVykc3z+bNYvOyQi9ZMMsRQup+z8LAWce2TSZ20xj0fHGDbVl0HNtzIltOSWJ+cQ2xi+7n2x3bZ6V0Ec+2RqSXGJVKiTEj5BNllYgEDMQ/dvXQm7caacFfgTOOZ0C7B0Imq1QB7WDjpXrT/uoSo6U14t+ASfp65ejT58Lwg5W8Bm61bezjbInK/tqSBs/heE4Dw59bM2fUU3Ijwmz4hC/t5jTQg7C00yMiYqETS5t5PiAlgfGoe7xy+XtIzaW8AxaZhXWhaXRPXej48U47y6+QJxJ7XmF3C1Wqiv2ythY7mqom9xCrWpNDnpxsoU1b86NhfXM32neX5vDahzVclAmhrzo8SN0oNV4RafvUrZEyajI0f6x7hueH0bmPWWqFamYzV76AtNNJ9mcTdMIYO11yyBbO5JWcOKM=
