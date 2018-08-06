@@ -15,9 +15,9 @@ ADD rustbook chapters
 WORKDIR chapters
 
 RUN crowbook rustbook
-RUN ls -la
 
 ARG DROPBOX_API_KEY
+RUN echo "$DROPBOX_API_KEY"
 RUN curl -X POST https://content.dropboxapi.com/2/files/upload \
     --header "Authorization: Bearer $DROPBOX_API_KEY" \
     --header "Dropbox-API-Arg: {\"path\": \"/rustbook.pdf\",\"mode\": \"overwrite\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}" \
