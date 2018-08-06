@@ -9,8 +9,8 @@
 [![Build Status](https://travis-ci.org/sadkovoy/rustbook.svg?branch=master)](https://travis-ci.org/sadkovoy/rustbook)
 
 ### Links for latest builds:
-- [PDF](https://www.dropbox.com/s/c0zdl1fflg4buc9/rustbook.pdf?dl=0)
-- [EPUB](https://www.dropbox.com/s/nxxofnzw41ro6t8/rustbook.epub?dl=0)
+- [PDF](https://www.dropbox.com/s/v9dq67vrx3eum94/rustbook.pdf?dl=0)
+- [EPUB](https://www.dropbox.com/s/2ss4bd7certh7kv/rustbook.epub?dl=0)
 
 ##### Requirements for manual usage:
  - `docker`
